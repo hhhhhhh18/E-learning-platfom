@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo"> E-Learning Platform</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Start Your Learning Journey Today</h1>
+            <p>Your one-stop solution for online learning.</p>
+            <button onclick="location.href='#'">Browse Courses</button>
+        
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <h2>Featured Courses</h2>
+        <div class="course-list">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <img src="webdev.jpg" alt="Course 1">
+                <h3>Web Development </h3>
+                <p>Beginner friendly introduction to web development.</p>
+                <button onclick="location.href='#'">Learn More</button>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course-card">
+                <img src="python.jpg" alt="Course 2">
+                <h3>Data Science with Python</h3>
+                <p>Learn the basics of Data Science with Python.</p>
+                <button onclick="location.href='#'">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Details Page -->
+   <div id="change">
+    <section class="course-details">
+        <div class="video-player">
+            <h2>Web Development </h2>
+            <div class="video-container">
+                <video width="360" height="180" controls="controls">
+                    <source src="videoplayback2.mp4" type="video/mp4">
+                    />
+                    </video>
+            </div>
+            <p>Instructor: Hamad Shaik</p>
+        </div>
+      <!--<section class="hide">-->
+       <section class="course-details2">
+            <div class="video-player2">
+                <h2>DSA with Python</h2>
+                <div class="video-container">
+                    <video  width="240%" height="160" controls="controls">
+                        <source src="videoplayback.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <p>Instructor: Hamad Shaik</p>
+            </div>
+        </section>
+        
+        <div class="progress-tracker">
+            <h3>Course Progress</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%"></div>
+            </div>
+            <p>60% Completed</p>
+        </div>
+    
+
+
+    </section>
+</div>
+<!--Footer page-->
+    <footer>
+        <p>&copy; 2025 LearningPlatform | All Rights Reserved</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
